@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(220, 192, 155);
+
+}
+
+h1 {
+  font: small-caps bold 60px "pt serif";
+  text-align: center;
+  color: rgb(206, 65, 0);
+  letter-spacing: 10px;
+
+
+
+}
+
+p {
+  background-color: rgb(206, 65, 0);
+  color: white;
+  padding: 20px;
+  font: italic 18px moncao, Monospace;
+  height: 300%;
+  width: 30%;
+  display: inline-flex;
+  text-align: center;
+  margin: 5px;
+  border-radius: 30px;
+  align-items: center;
+  word-spacing: 2px;
+
+
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  clip-path: circle(50%);
+  object-fit: cover;
+  align-self: center;
+
+
+}
+
+.block {
+  display: flex;
+  position: fixed;
+
+}
