@@ -4,13 +4,12 @@ body {
 }
 
 h1 {
-  font: small-caps bold 60px "pt serif";
+  font: small-caps bold 60px pt serif, serif;
   text-align: center;
   color: rgb(206, 65, 0);
   letter-spacing: 10px;
-
-
-
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 p {
@@ -18,14 +17,14 @@ p {
   color: white;
   padding: 20px;
   font: italic 18px moncao, Monospace;
-  height: 300%;
-  width: 30%;
-  display: inline-flex;
-  text-align: center;
+  height: 300px;
+  width: 700px;
+  display: flex;
+  text-align: right;
   margin: 5px;
   border-radius: 30px;
   align-items: center;
-  word-spacing: 2px;
+  word-spacing: 1px;
 
 
 }
@@ -43,5 +42,5 @@ img {
 .block {
   display: flex;
   position: fixed;
-
+  align-items: center;
 }
